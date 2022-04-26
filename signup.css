@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+#container{
+    width: 99%;
+    margin: auto;
+}
+#nav{
+     /* border: 1px solid red;  */
+    width: 99%;
+    height: 190px;
+    margin: auto;
+    padding-top: 5px;
+}
+#nav > .first{
+     border: 1px solid  rgb(51, 51, 51); 
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.first > div{
+    display: flex;
+    padding: 5px;
+    
+}
+.first > div >a> p{
+    padding: 5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 31px;
+ color: rgb(51, 51, 51);
+}
+
+#nav > .second{
+    /* border: 1px solid blue; */
+    width: 98%;
+    height: 40px;
+    margin-top: 5px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+#nav > .second > div{
+    display: flex;
+    
+}
+#nav > .second > div> ul  {
+    display: flex;
+   
+}
+#nav > .second > div > ul >  li{
+   margin:  10px;
+   list-style: none;
+   font-family: Montserrat, sans-serif;
+   font-size: 12px;
+   font-weight: 700;
+   line-height: 15px;
+   color: rgb(51, 51, 51);
+   
+}
+
+#nav > .third{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    background-color: rgb(51, 51, 51);
+}
+#nav > .third > div{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    /* border: 1px solid green; */
+}
+ #nav > .third > div > ul {
+     display: flex;
+     justify-content: space-around;
+ }
+ #nav > .third > div> ul > li{
+     list-style: none;
+     margin-top: 10px;
+     font-family: Montserrat, sans-serif;
+     font-size: 11px;
+     font-weight: 500;
+     line-height: 15px;
+color: rgb(204, 204, 204);
+ }
+ #nav > .fourth{
+     /* border: 1px solid blue; */
+     width: 100%;
+     height: 53px;
+     margin: auto;
+     background-color: #9224d2;
+     text-align: center;
+     padding-top: 10px;
+ }
+ #nav > .fourth > h3{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(51, 51, 51);
+ }
+ #nav > .fourth > p{
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
+    color: rgb(51, 51, 51);
+ }
+
+ 
+.cont{
+    width: 40%;
+    height: 500px;
+    /* border: 1px solid red; */
+    margin: auto;
+    background-color: white;
+    color: black;
+    padding-top: 30px;
+    padding-left: 190px;
+    margin-top: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     
+}
+h4{
+    font-family: Montserrat, sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 12px;
+color: rgb(51, 51, 51);
+padding-top: 8px;
+}
+input{
+    width: 280px;
+    height: 25px;
+     margin-top: 8px;
+}
+button{
+    width: 70px;
+    height: 30px;
+}

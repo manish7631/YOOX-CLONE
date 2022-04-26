@@ -1,0 +1,278 @@
+body {
+    background-color: #eee;
+    font-family: sans-serif;
+  }
+
+  #container{
+    width: 99%;
+    margin: auto;
+}
+#nav{
+     /* border: 1px solid red;  */
+    width: 99%;
+    height: 190px;
+    margin: auto;
+    padding-top: 5px;
+}
+#nav > .first{
+     /* border: 1px solid  rgb(51, 51, 51);  */
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.first > div{
+    display: flex;
+    padding: 5px;
+    
+}
+.first > div >a> p{
+    padding: 5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 31px;
+ color: rgb(51, 51, 51);
+}
+
+#nav > .second{
+    /* border: 1px solid blue; */
+    width: 98%;
+    height: 40px;
+    margin-top: 5px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+#nav > .second > div{
+    display: flex;
+    
+}
+#nav > .second > div> ul  {
+    display: flex;
+   
+}
+#nav > .second > div > ul >  li{
+   margin:  10px;
+   list-style: none;
+   font-family: Montserrat, sans-serif;
+   font-size: 12px;
+   font-weight: 700;
+   line-height: 15px;
+   color: rgb(51, 51, 51);
+   
+}
+
+#nav > .third{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    background-color: rgb(51, 51, 51);
+}
+#nav > .third > div{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    /* border: 1px solid green; */
+}
+ #nav > .third > div > ul {
+     display: flex;
+     justify-content: space-around;
+ }
+ #nav > .third > div> ul > li{
+     list-style: none;
+     margin-top: 10px;
+     font-family: Montserrat, sans-serif;
+     font-size: 11px;
+     font-weight: 500;
+     line-height: 15px;
+color: rgb(204, 204, 204);
+ }
+ #nav > .fourth{
+     /* border: 1px solid blue; */
+     width: 100%;
+     height: 53px;
+     margin: auto;
+     background-color: #9224d2;
+     text-align: center;
+     padding-top: 10px;
+ }
+ #nav > .fourth > h3{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(51, 51, 51);
+ }
+ #nav > .fourth > p{
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
+    color: rgb(51, 51, 51);
+ }
+
+   
+  #mainDiv {
+    width: 94%;
+    height: 560px;
+    margin-top: -28px;
+    margin-left: 35px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  #payHead {
+    width: 98%;
+    height: 50px;
+    background-color: #333;
+    border-radius: 3px;
+    color: white;
+    padding: 5px;
+  }
+  h3 {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  #payDiv {
+    width: 63%;
+    height: 100%;
+  }
+  #sumDiv {
+    /* border: 1px solid red; */
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color:grey;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  #payOption {
+    height: 89%;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    vertical-align: top;
+  }
+  #optionSelect {
+    display: inline-block;
+    height: 89%;
+    width: 68.6%;
+    color: grey;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  #payOption > div {
+    width: 90%;
+
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+    color: grey;
+    border: 1px solid grey;
+    border-right: 0;
+    border-left: 0;
+  }
+  #payOption > div:hover {
+    color: black;
+    border-left: 3px solid rgb(228, 12, 70);
+  }
+  input,
+  select {
+    height: 25px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    outline: 0;
+    background-color: white;
+  }
+  select {
+    border: 0;
+    height: 40px;
+    margin-right: 5px;
+  }
+  #cvv {
+    width: 52px;
+  }
+  #btn-cc,#btn-dc{
+    margin-top: 10px;
+    height: 40px;
+    width: 230px;
+    background-color: rgb(228, 12, 70);
+    color: white;
+    border: 0;
+    border-radius: 3px;
+  }
+  #btn-cc:hover,#btn-dc:hover {
+    background-color: rgb(225, 31, 82);
+  }
+  #heading {
+    color: black;
+    font-size: 18px;
+  }
+  a {
+    color: grey;
+  }
+  .cc-td {
+    color: black;
+  }
+  h6 {
+    line-height: 1px;
+  }
+  #trust {
+    margin-top: -10px;
+  }
+  #btn-cod {
+    margin-top: 10px;
+    height: 40px;
+    width: 230px;
+    background-color: rgb(228, 12, 70);
+    color: white;
+    border: 0;
+    border-radius: 3px;
+  }
+  #btn-cod:hover {
+    background-color: rgb(225, 31, 82);
+  }
+  #upi_val{
+    width: 280px;
+    margin-left: 5px;
+  }
+  #varify{
+    height: 30px;
+    width: 60px;
+    background-color:#333;
+    color:white;
+    border:0;
+    border-radius: 3px;
+  }
+  #btn-upi{
+    margin-top: 10px;
+    height: 38px;
+    width: 230px;
+    margin-left: 7px;
+    background-color: #B4B4B4;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+  }
+ #varify:hover{
+  background-color:rgb(73, 71, 71);
+ }
+ 
+#sumHead{
+  width: 70%;
+  height: 70px;
+  margin-left: 40px;
+}
+#sumHead>p{
+  margin-top: 40px;
+}
